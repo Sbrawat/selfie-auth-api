@@ -1,5 +1,5 @@
 import json
-from api.main import app
+from main import app
 
 def generate_markdown_docs():
     # 1. Pull the live OpenAPI schema directly from your FastAPI app

@@ -4,7 +4,9 @@ pymongo
 python-multipart
 pydantic
 mediapipe
+setuptools==69.5.1
 face_recognition
+face_recognition_models 
 numpy
 # IMPORTANT: Use headless OpenCV in Docker to prevent missing GUI library crashes
 opencv-python-headless
