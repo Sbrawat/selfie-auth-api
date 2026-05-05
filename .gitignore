@@ -1,0 +1,16 @@
+# Environments
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database (If you map local volumes)
+mongo_data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
