@@ -13,7 +13,7 @@ services:
   # The FastAPI Microservice Container
   api:
     build: 
-      context: ./api      # Tells Docker to look in the api/ folder for the Dockerfile
+      context: ./     # Tells Docker to look in the api/ folder for the Dockerfile
     container_name: faceauth_api
     ports:
       - "8000:8000"
